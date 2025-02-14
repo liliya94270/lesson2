@@ -1,8 +1,5 @@
-def is_yesr_leap(year):
-    if (year % 4 == 0):
-        print(f"Year: {year} - True")
-    else:
-        print(f"Year: {year} - False")
+def is_year_leap(year):
+    return year % 4 == 0
 
-
-is_yesr_leap(int(input("Type a year: ")))
+year = int(input("Type a year: "))
+print(f"Год {year}: {is_year_leap(year)}")
