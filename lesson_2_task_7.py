@@ -1,2 +1,2 @@
-num_set = list(range(18,1,-4))
-print(num_set)
+num_set = range(18, 1, -4)
+print(list(num_set))
